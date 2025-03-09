@@ -5,7 +5,9 @@
 .config/
 .fontconfig/
 .java/
+.jssc/
 .local/
+.swt/
 Desktop/
 installer/
 .XIC.lock
@@ -14,3 +16,5 @@ installer/
 .vnc/
 .xsession-errors
 scripts/install_bin
+xrc.log
+.digilent_dvctbl.txt

@@ -7,10 +7,10 @@ source $script_dir/header.sh
 validate_macos
 
 cd $script_dir/..
-to_remove=(".cache" ".dbus" ".local" ".vnc" "Xilinx" ".Xilinx"
+to_remove=(".cache" ".dbus" ".local" ".vnc" "Xilinx" ".Xilinx" ".jssc" ".swt"
 "Desktop" "installer" ".bash_history" ".lesshst" ".sudo_as_admin_successful"
 ".Xauthority" ".xsession-errors" ".XIC.lock" ".mozilla" ".java" ".config"
-".fontconfig" )
+".fontconfig" "xrc.log" ".digilent_dvctbl.txt")
 for file in ${to_remove[@]}
 do
     rm -rf $file
